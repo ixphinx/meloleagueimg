@@ -25,7 +25,8 @@ cloudinary.config({
         } catch (e) {
             console.log(e)
         }
-        
+         res.redirect('https://melosevenleague.uy/#/panel-home');
+
     }
 });
 
