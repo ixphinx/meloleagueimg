@@ -27,7 +27,9 @@ cloudinary.config({
         }
          
     }
-      res.redirect('/');
+      res.json({
+        status: 'Dato guardado'
+    });
 
 });
 
