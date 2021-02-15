@@ -27,7 +27,7 @@ cloudinary.config({
         }
          
     }
-      res.redirect('https://melosevenleague.uy/#/fotos');
+      res.redirect('/');
 
 });
 
